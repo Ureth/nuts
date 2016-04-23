@@ -1,0 +1,13 @@
+doctype html
+html(ng-app='cosmetApp')
+  head
+    title= title
+    base(href="/")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(ng-view)
+      block content
+    
+    script(src='/angular/angular.min.js')
+    script(src='/lib/angular-route.min.js')
+    script(src='angular/cosmetApp.min.js')
