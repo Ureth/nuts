@@ -6040,7 +6040,13 @@ th {
 .clear {
   clear: both; }
 
-a:focus, a:hover {
+.content {
+  min-height: 650px; }
+  @media (max-width: 480px) {
+    .content {
+      min-height: 0; } }
+
+a:focus, a:hover, a:active {
   color: unset;
   text-decoration: none; }
 
@@ -6049,7 +6055,8 @@ a:focus, a:hover {
   position: fixed;
   width: 100%;
   z-index: 2;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  margin: 0px; }
   .header__content {
     max-width: 980px;
     min-height: 30px;
@@ -6062,13 +6069,16 @@ a:focus, a:hover {
     border-right: 3px solid #406134; }
     .header-navigation__item:first-child {
       border-left: 3px solid #406134; }
+    @media (max-width: 452px) {
+      .header-navigation__item:last-child {
+        border-left: 3px solid #406134; } }
   .header-navigation__link {
     display: block;
     color: #fff;
     text-shadow: 0 0 2px #000;
     font: 20px/43px "Bloggersans",Arial;
     height: 50px;
-    width: 150px;
+    padding: 0 10px;
     text-align: center; }
     .header-navigation__link:hover {
       text-decoration: none;
@@ -6080,6 +6090,9 @@ a:focus, a:hover {
   .footer__content {
     max-width: 980px;
     margin: 0 auto; }
+  @media (max-width: 420px) {
+    .footer-contacts {
+      width: 100%; } }
   .footer-contacts__header {
     font: 25px "Bloggersans", Arial;
     text-transform: uppercase;
@@ -6130,7 +6143,6 @@ a:focus, a:hover {
     width: 100%; }
   .about__info {
     width: 400px;
-    height: 400px;
     background: rgba(106, 178, 84, 0.7);
     position: absolute;
     top: 20%;
@@ -6138,6 +6150,10 @@ a:focus, a:hover {
     font: 20px "Bloggersans", Arial;
     padding: 20px;
     color: #fff; }
+    @media (max-width: 768px) {
+      .about__info {
+        position: static;
+        margin: 0 auto; } }
   .about__title {
     font: 30px "Bloggersans", Arial;
     text-align: center;
@@ -6225,5 +6241,20 @@ a:focus, a:hover {
       .offer__product-details:hover {
         text-decoration: underline;
         color: #6AB254; }
+
+.comment-box {
+  margin: 0 auto;
+  max-width: 980px;
+  padding-top: 100px; }
+  .comment-box__header {
+    font: 30px "Bloggersans", Arial;
+    color: #505050; }
+
+.underheader {
+  height: 50px;
+  background: rgba(106, 178, 84, 0.7); }
+  @media (max-width: 452px) {
+    .underheader {
+      height: 100px; } }
 
 /*# sourceMappingURL=style.css.map */

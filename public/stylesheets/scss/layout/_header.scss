@@ -4,6 +4,7 @@
   width: 100%;
   z-index: 2;
   box-shadow: 0 3px 3px rgba(0,0,0,.3);
+  margin: 0px;
   &__content {
     max-width: 980px;
     min-height: 30px;
@@ -20,6 +21,11 @@
       &:first-child {
         border-left: 3px solid #406134;
       }
+      &:last-child {
+        @media (max-width: 452px) {
+          border-left: 3px solid #406134;
+        }
+      }
     }
     &__link {
       display: block;
@@ -27,7 +33,7 @@
       text-shadow: 0 0 2px #000;
       font: 20px/43px "Bloggersans",Arial;
       height: 50px;
-      width: 150px;
+      padding: 0 10px;
       text-align: center;
       &:hover {
         text-decoration: none;

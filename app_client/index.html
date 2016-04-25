@@ -3,10 +3,28 @@
 <head>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="fb:app_id" content="{1021956574520734}" />
   <title>Nut-house</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1021956574520734',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
   <header class="header">
     <div class="header__content">
       <nav class="header-navigation">
@@ -22,7 +40,7 @@
   <div class="content" ng-view></div>
   <footer class="footer">
     <div class="footer__content">
-      <div class="footer-contacts col-md-6">
+      <div class="footer-contacts col-xs-6">
         <h3 class="footer-contacts__header">Свяжитесь с нами</h3>
         <ul class="footer-contacts__list">
           <li class="footer-contacts__item"><span class="footer-contacts__item-phone-icon"></span>+380631234567</li>
@@ -30,7 +48,7 @@
           <li class="footer-contacts__item"><span class="footer-contacts__item-email-icon"></span>E-mail@gmail.com</li>
         </ul>
       </div>
-      <div class="footer-nav col-md-6">
+      <div class="footer-nav col-xs-6">
         <ul class="footer-nav__list">
           <li class="footer-nav__item"><a href="/" class="footer-nav__link">Главная</a></li>
           <li class="footer-nav__item"><a href="/delivery" class="footer-nav__link">Доставка</a></li>
@@ -41,6 +59,7 @@
     </div>
     <div class="footer__copyright col-xs-12">Design and development by Alexandr Kyianovskyi</div>
   </footer>
+  <script src="/lib/jquery-1.12.2.min.js"></script>
   <script src="/angular/angular.min.js"></script>
   <script src="/lib/angular-route.min.js"></script>
   <script src="angular/nutsApp.min.js"></script>
