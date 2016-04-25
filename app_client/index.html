@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html ng-app="cosmetApp">
+<html ng-app="nutsApp">
 <head>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SOSOS</title>
+  <title>Nut-house</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-  <ul>
-       <li><a href="/about"> About me</a></li>
-       <li><a href="/contacts">Contacts</a></li>
-       <li><a href="/prices">Prices</a></li>
-       <li><a href="/">Home</a></li>
-       <li><a href="/services">Services</a></li>
-     </ul>   
-  <div ng-view></div>
+  <header class="header">
+    <div class="header__content">
+    <nav class="header-navigation">
+      <ul class="header-navigation__list">
+        <li class="header-navigation__item"><a href="/" class="header-navigation__link">Главная</a>
+        <li class="header-navigation__item"><a href="/delivery" class="header-navigation__link">Доставка</a>
+        <li class="header-navigation__item"><a href="/reviews" class="header-navigation__link">Отзывы</a>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <div class="content" ng-view></div>
   <script src="/angular/angular.min.js"></script>
   <script src="/lib/angular-route.min.js"></script>
-  <script src="angular/cosmetApp.min.js"></script>
+  <script src="angular/nutsApp.min.js"></script>
 </body>
 </html>

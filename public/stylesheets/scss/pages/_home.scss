@@ -1,0 +1,89 @@
+.about {
+  height: 100%;
+  margin-bottom: 50px;
+  &__img {
+    width: 100%;
+  }
+  &__info {
+    width: 400px;
+    height: 400px;
+    background: rgba(106, 178, 84, 0.7);
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font: 20px $main-font, Arial;
+    padding: 20px;
+  }
+  &__title{
+    font: 30px $main-font, Arial;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.production {
+  height: 100%;
+  &__title{
+    font: 30px $main-font, Arial;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  &-content {
+    text-align: center;
+    max-width: 980px;
+    margin: 0 auto;
+    height: 100%;
+    color: $font-color;
+    list-style: none;
+    &__item {
+      display: inline-block;
+    }
+    &__img {
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      border: 1px solid $main-color;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    &__quality-icon {
+      width: 100px;
+      height: 100px;
+      display: block;
+      margin: 25px auto 0;
+      background: url("../img/sprite.png") -100px 0;
+    }
+    &__price-icon {
+      @extend .production-content__quality-icon;
+      background: url("../img/sprite.png");
+    }
+    &__delivery-icon {
+      @extend .production-content__quality-icon;
+      background: url("../img/sprite.png") -200px 0;
+    }
+    &__title {
+      font: 25px $main-font, Arial;
+    }
+    &__description {
+      font: 18px $main-font, Arial;
+    }
+  }
+}
+
+.offer {
+  height: 100%;
+  &__title {
+    font: 30px $main-font, Arial;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__product {
+    border: 1px solid red;
+    display: block;
+    height: 400px;
+    &-img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import
+"scss/abstracts/variables";
+
+@import
+  "scss/vendors/bootstrap";
+
+@import
+  "scss/base/fonts",
+  "scss/base/reset";
+
+@import
+  "scss/layout/header",
+  "scss/layout/footer";
+
+@import
+  "scss/pages/delivery",
+  "scss/pages/home",
+  "scss/pages/reviews";
+

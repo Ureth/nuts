@@ -1,1 +1,1 @@
-angular.module('cosmetApp', []);
+angular.module('nutsApp', []);

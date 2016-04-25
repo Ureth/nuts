@@ -18,19 +18,17 @@ app.set('view engine', 'jade');
 var appClientFiles = [
   'app_client/app.js',
   'app_client/home/home.controller.js',
-  'app_client/prices/prices.controller.js',
-  'app_client/services/services.controller.js',
-  'app_client/about/about.controller.js',
-  'app_client/contacts/contacts.controller.js'
+  'app_client/reviews/reviews.controller.js',
+  'app_client/delivery/delivery.controller.js'
 ];
 
 var uglified = uglifyJs.minify(appClientFiles, { compress : false });
 
-fs.writeFile('public/angular/cosmetApp.min.js', uglified.code, function (err){
+fs.writeFile('public/angular/nutsApp.min.js', uglified.code, function (err){
   if(err) {
     console.log(err);
   } else {
-    console.log('Script generated and saved: cosmetApp.min.js');
+    console.log('Script generated and saved: nutsApp.min.js');
   }
 });
 

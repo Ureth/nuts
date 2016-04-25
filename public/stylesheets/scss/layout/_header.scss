@@ -1,0 +1,39 @@
+.header {
+  background: rgba(106, 178, 84, .7);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 0 3px 3px rgba(0,0,0,.3);
+  &__content {
+    max-width: 980px;
+    min-height: 30px;
+    margin: 0 auto;
+  }
+  &-navigation {
+    &__list {
+      list-style: none;
+      text-align: center;
+    }
+    &__item {
+      display: inline-block;
+      border-right: 3px solid #406134;
+      &:first-child {
+        border-left: 3px solid #406134;
+      }
+    }
+    &__link {
+      display: block;
+      color: #fff;
+      text-shadow: 0 0 2px #000;
+      font: 20px/43px "Bloggersans",Arial;
+      height: 50px;
+      width: 150px;
+      text-align: center;
+      &:hover {
+        text-decoration: none;
+        background: #406134;
+        color: #fff;
+      }
+    }
+  }
+}

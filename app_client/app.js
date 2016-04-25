@@ -1,4 +1,4 @@
-angular.module('cosmetApp', ['ngRoute']);
+angular.module('nutsApp', ['ngRoute']);
 
 function config ($routeProvider, $locationProvider) {
   $routeProvider
@@ -7,31 +7,21 @@ function config ($routeProvider, $locationProvider) {
       controller: 'homeCtrl',
       controllerAs: 'vm'
     })
-    .when('/prices', {
-      templateUrl: 'prices/prices.view.html',
-      controller: 'pricesCtrl',
+    .when('/delivery', {
+      templateUrl: 'delivery/delivery.view.html',
+      controller: 'deliveryCtrl',
       controllerAs: 'vm'
     })
-    .when('/services', {
-      templateUrl: 'services/services.view.html',
-      controller: 'servicesCtrl',
+    .when('/reviews', {
+      templateUrl: 'reviews/reviews.view.html',
+      controller: 'reviewsCtrl',
       controllerAs: 'vm'
     })
-    .when('/about', {
-      templateUrl: 'about/about.view.html',
-      controller: 'aboutCtrl',
-      controllerAs: 'vm'
-    })
-    .when('/contacts', {
-      templateUrl: 'contacts/contacts.view.html',
-      controller: 'contactsCtrl',
-      controllerAs: 'vm'
-    })            
     .otherwise({redirectTo: '/'});
 
   $locationProvider.html5Mode(true);
 }
 
 angular
-  .module('cosmetApp')
+  .module('nutsApp')
   .config(['$routeProvider', '$locationProvider', config]);
