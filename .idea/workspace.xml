@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c03c5d-efe5-43e1-9855-7bb17ffad128" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\about\about.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\about\about.view.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\contacts\contacts.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\contacts\contacts.view.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\prices\prices.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\prices\prices.view.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\services\services.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Urethr\Site\nuts2\app_client\services\services.view.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/app.js" afterPath="$PROJECT_DIR$/app_client/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angular/cosmetApp.js" afterPath="$PROJECT_DIR$/public/angular/cosmetApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/home/home.controller.js" afterPath="$PROJECT_DIR$/app_client/home/home.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/.sass-cache/0bf1ca744a79e183bef5fb63f8501463f83c4373/_home.scssc" afterPath="$PROJECT_DIR$/public/stylesheets/.sass-cache/0bf1ca744a79e183bef5fb63f8501463f83c4373/_home.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/.sass-cache/4f5c90452e1b5783442b423b5255c5ebaa35d772/_reset.scssc" afterPath="$PROJECT_DIR$/public/stylesheets/.sass-cache/4f5c90452e1b5783442b423b5255c5ebaa35d772/_reset.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/base/_reset.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/base/_reset.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/home/home.view.html" afterPath="$PROJECT_DIR$/app_client/home/home.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/index.html" afterPath="$PROJECT_DIR$/app_client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/layout.jade" afterPath="$PROJECT_DIR$/app_server/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nuts2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,31 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.view.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.view.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_client/home/home.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.785714">
-              <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.8863636">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59090906">
-              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/abstracts/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.428571">
+              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -76,8 +58,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app_client/home/home.view.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/scss/base/_reset.scss" />
         <option value="$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/app_client/home/home.view.html" />
       </list>
     </option>
   </component>
@@ -336,14 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7361111">
-          <caret line="6072" column="36" selection-start-line="6072" selection-start-column="36" selection-end-line="6072" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/abstracts/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0357144">
@@ -352,26 +327,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/base/_reset.scss">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.818182">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2959.4138">
+          <caret line="6180" column="0" selection-start-line="6180" selection-start-column="0" selection-end-line="6180" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/home/home.view.html">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/base/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.9136868">
+          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59090906">
-          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        <state vertical-scroll-proportion="-6.428571">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/home/home.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8863636">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

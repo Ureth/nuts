@@ -13,6 +13,7 @@
     right: 10%;
     font: 20px $main-font, Arial;
     padding: 20px;
+    color: #fff;
   }
   &__title{
     font: 30px $main-font, Arial;
@@ -32,7 +33,7 @@
   &-content {
     text-align: center;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     height: 100%;
     color: $font-color;
     list-style: none;
@@ -77,13 +78,50 @@
     font: 30px $main-font, Arial;
     text-align: center;
     margin-bottom: 50px;
+    text-transform: uppercase;
   }
   &__product {
-    border: 1px solid red;
+    border-bottom: 1px solid #a84d31;
     display: block;
     height: 400px;
+    padding: 20px;
+    color: $font-color;
+    text-align: center;
+    overflow: hidden;
+    @media (max-width: 990px) {
+      min-height: 400px;
+      height: 100%;
+    }
     &-img {
       width: 100%;
+    }
+    &-title {
+      font: 25px $main-font, Arial;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 70px 0 20px;
+    }
+    &-price {
+      font: 25px $main-font, Arial;
+      color: #a84d31;
+      margin-bottom: 20px;
+      display: block;
+      text-align: left;
+    }
+    &-description {
+      font: 18px $main-font, Arial;
+      color: $font-color;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    &-details {
+      font: 18px $main-font, Arial;
+      color: $main-color;
+      text-align: center;
+      &:hover {
+        text-decoration: underline;
+        color: $main-color;
+      }
     }
   }
 }

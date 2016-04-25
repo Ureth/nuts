@@ -6088,7 +6088,8 @@ a:focus, a:hover {
     top: 20%;
     right: 10%;
     font: 20px "Bloggersans", Arial;
-    padding: 20px; }
+    padding: 20px;
+    color: #fff; }
   .about__title {
     font: 30px "Bloggersans", Arial;
     text-align: center;
@@ -6104,7 +6105,7 @@ a:focus, a:hover {
   .production-content {
     text-align: center;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     height: 100%;
     color: #505050;
     list-style: none; }
@@ -6137,12 +6138,44 @@ a:focus, a:hover {
   .offer__title {
     font: 30px "Bloggersans", Arial;
     text-align: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    text-transform: uppercase; }
   .offer__product {
-    border: 1px solid red;
+    border-bottom: 1px solid #a84d31;
     display: block;
-    height: 400px; }
+    height: 400px;
+    padding: 20px;
+    color: #505050;
+    text-align: center;
+    overflow: hidden; }
+    @media (max-width: 990px) {
+      .offer__product {
+        min-height: 400px;
+        height: 100%; } }
     .offer__product-img {
       width: 100%; }
+    .offer__product-title {
+      font: 25px "Bloggersans", Arial;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 70px 0 20px; }
+    .offer__product-price {
+      font: 25px "Bloggersans", Arial;
+      color: #a84d31;
+      margin-bottom: 20px;
+      display: block;
+      text-align: left; }
+    .offer__product-description {
+      font: 18px "Bloggersans", Arial;
+      color: #505050;
+      margin-bottom: 20px;
+      text-align: left; }
+    .offer__product-details {
+      font: 18px "Bloggersans", Arial;
+      color: #6AB254;
+      text-align: center; }
+      .offer__product-details:hover {
+        text-decoration: underline;
+        color: #6AB254; }
 
 /*# sourceMappingURL=style.css.map */
