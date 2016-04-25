@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 50px;
+  &__content {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  &-contacts {
+    &__header {
+      font: 25px $main-font, Arial;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &__list {
+      list-style: none;
+    }
+    &__item {
+      height: 40px;
+      max-width: 300px;
+      &-phone-icon{
+        display: block;
+        width: 37px;
+        height: 32px;
+        margin-right: 20px;
+        float: left;
+        background: url("../img/sprite.png") -312px -27px;;
+      }
+      &-email-icon{
+        @extend .footer-contacts__item-phone-icon;
+        background: url("../img/sprite.png") -312px 0;
+        height: 27px;
+      }
+      &-skype-icon{
+        @extend .footer-contacts__item-phone-icon;
+        background: url("../img/sprite.png") -312px -61px;
+      }
+    }
+  }
+  &-nav {
+    &__list {
+      list-style: none;
+      border-left: 3px solid #406134;
+      padding-left: 20px;
+      width: 200px;
+      margin: 0 auto;
+    }
+    &__item {
+      height: 40px;
+    }
+    &__link {
+      color: $main-color;
+      font: 18px / 40px $main-font, Arial;
+      &:hover {
+        color: $main-color;
+        text-decoration: underline;
+    }
+    }
+  }
+  &__copyright {
+    text-align: center;
+    height: 50px;
+    color: #959595;
+    font: 14px / 49px $main-font, Arial;
+    background: #eee;
+  }
+}

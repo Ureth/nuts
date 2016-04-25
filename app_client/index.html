@@ -9,16 +9,38 @@
 <body>
   <header class="header">
     <div class="header__content">
-    <nav class="header-navigation">
-      <ul class="header-navigation__list">
-        <li class="header-navigation__item"><a href="/" class="header-navigation__link">Главная</a>
-        <li class="header-navigation__item"><a href="/delivery" class="header-navigation__link">Доставка</a>
-        <li class="header-navigation__item"><a href="/reviews" class="header-navigation__link">Отзывы</a>
-      </ul>
-    </nav>
-  </div>
+      <nav class="header-navigation">
+        <ul class="header-navigation__list">
+          <li class="header-navigation__item"><a href="/" class="header-navigation__link">Главная</a>
+          <li class="header-navigation__item"><a href="/delivery" class="header-navigation__link">Доставка</a>
+          <li class="header-navigation__item"><a href="/reviews" class="header-navigation__link">Отзывы</a>
+          <li class="header-navigation__item"><a href="/fromUkraine" class="header-navigation__link">Товары с Украины</a>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class="content" ng-view></div>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer-contacts col-md-6">
+        <h3 class="footer-contacts__header">Свяжитесь с нами</h3>
+        <ul class="footer-contacts__list">
+          <li class="footer-contacts__item"><span class="footer-contacts__item-phone-icon"></span>+380631234567</li>
+          <li class="footer-contacts__item"><span class="footer-contacts__item-skype-icon"></span>Skype</li>
+          <li class="footer-contacts__item"><span class="footer-contacts__item-email-icon"></span>E-mail@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footer-nav col-md-6">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item"><a href="/" class="footer-nav__link">Главная</a></li>
+          <li class="footer-nav__item"><a href="/delivery" class="footer-nav__link">Доставка</a></li>
+          <li class="footer-nav__item"><a href="/reviews" class="footer-nav__link">Отзывы</a></li>
+          <li class="footer-nav__item"><a href="/fromUkraine" class="footer-nav__link">Товары с Украины</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright col-xs-12">Design and development by Alexandr Kyianovskyi</div>
+  </footer>
   <script src="/angular/angular.min.js"></script>
   <script src="/lib/angular-route.min.js"></script>
   <script src="angular/nutsApp.min.js"></script>
