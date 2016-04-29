@@ -19,7 +19,9 @@ var appClientFiles = [
   'app_client/app.js',
   'app_client/home/home.controller.js',
   'app_client/reviews/reviews.controller.js',
-  'app_client/delivery/delivery.controller.js'
+  'app_client/delivery/delivery.controller.js',
+  'app_client/common/directives/fbComments/fbCommentsDirective.directive.js',
+  'app_client/common/directives/fbComments/dynFbCommentBox.directive.js'
 ];
 
 var uglified = uglifyJs.minify(appClientFiles, { compress : false });
