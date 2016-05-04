@@ -247,8 +247,13 @@ th {
   }
 }
 
-a:focus, a:hover, a:active {
+a:hover, a:active{
   color: unset;
   text-decoration: none;
 }
 
+a:focus {
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}

@@ -57,7 +57,10 @@
       &:hover {
         color: $main-color;
         text-decoration: underline;
-    }
+      }
+      &:focus {
+        color: inherit;
+      }
     }
   }
   &__copyright {

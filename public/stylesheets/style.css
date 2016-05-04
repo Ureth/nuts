@@ -3652,22 +3652,10 @@ tbody.collapse.in {
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-right: 0;
     border-radius: 4px; }
-  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover,
-  .nav-tabs.nav-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus,
-  .nav-tabs.nav-justified > .active > a:focus {
-    border: 1px solid #ddd; }
   @media (min-width: 768px) {
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
       border-bottom: 1px solid #ddd;
-      border-radius: 4px 4px 0 0; }
-    .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-    .nav-tabs-justified > .active > a:hover,
-    .nav-tabs.nav-justified > .active > a:hover,
-    .nav-tabs-justified > .active > a:focus,
-    .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #fff; } }
+      border-radius: 4px 4px 0 0; } }
 
 .tab-content > .tab-pane {
   display: none; }
@@ -4137,7 +4125,6 @@ tbody.collapse.in {
   .pagination > .disabled > a:focus {
     color: #777777;
     background-color: #fff;
-    border-color: #ddd;
     cursor: not-allowed; }
 
 .pagination-lg > li > a,
@@ -6046,21 +6033,34 @@ th {
     .content {
       min-height: 0; } }
 
-a:focus, a:hover, a:active {
+a:hover, a:active {
   color: unset;
   text-decoration: none; }
 
+a:focus {
+  color: #fff;
+  text-decoration: none;
+  border: none; }
+
 .header {
-  background: rgba(106, 178, 84, 0.7);
+  background: rgba(106, 178, 84, 0.9);
   position: fixed;
   width: 100%;
   z-index: 2;
+  top: 0;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
   margin: 0px; }
   .header__content {
     max-width: 980px;
     min-height: 30px;
     margin: 0 auto; }
+  .header__logo {
+    display: block;
+    width: 192px;
+    margin-top: 7px;
+    height: 40px;
+    background: url("../img/sprite.png") -364px 0;
+    float: left; }
   .header-navigation__list {
     list-style: none;
     text-align: center; }
@@ -6129,6 +6129,8 @@ a:focus, a:hover, a:active {
     .footer-nav__link:hover {
       color: #6AB254;
       text-decoration: underline; }
+    .footer-nav__link:focus {
+      color: inherit; }
   .footer__copyright {
     text-align: center;
     height: 50px;
@@ -6243,18 +6245,11 @@ a:focus, a:hover, a:active {
         color: #6AB254; }
 
 .comment-box {
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 980px;
   padding-top: 100px; }
   .comment-box__header {
     font: 30px "Bloggersans", Arial;
     color: #505050; }
-
-.underheader {
-  height: 50px;
-  background: rgba(106, 178, 84, 0.7); }
-  @media (max-width: 452px) {
-    .underheader {
-      height: 100px; } }
 
 /*# sourceMappingURL=style.css.map */

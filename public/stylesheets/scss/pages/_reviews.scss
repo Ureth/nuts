@@ -1,17 +1,9 @@
 .comment-box {
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 980px;
   padding-top: 100px;
   &__header {
     font: 30px $main-font, Arial;
     color: $font-color;
   }
-}
-
-.underheader {
-  height: 50px;
-  background: rgba(106, 178, 84, 0.7);
-  @media (max-width: 452px) {
-    height: 100px;
-}
 }
