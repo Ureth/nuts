@@ -21,6 +21,8 @@ var appClientFiles = [
   'app_client/reviews/reviews.controller.js',
   'app_client/delivery/delivery.controller.js',
   'app_client/common/directives/fbComments/fbCommentsDirective.directive.js',
+  'app_client/common/directives/footerRu/footerRu.directive.js',
+  'app_client/common/directives/headerRu/headerRu.directive.js',
   'app_client/common/directives/fbComments/dynFbCommentBox.directive.js'
 ];
 

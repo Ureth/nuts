@@ -17,6 +17,18 @@ function config ($routeProvider, $locationProvider) {
       controller: 'reviewsCtrl',
       controllerAs: 'vm'
     })
+    .when('/walnut', {
+      templateUrl: 'products/walnut.view.html'
+    })
+    .when('/hazelnut', {
+      templateUrl: 'products/hazelnut.view.html'
+    })
+    .when('/almond', {
+      templateUrl: 'products/almond.view.html'
+    })
+    .when('/honey', {
+      templateUrl: 'products/honey.view.html'
+    })
     .otherwise({redirectTo: '/'});
 
   $locationProvider.html5Mode(true);

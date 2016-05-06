@@ -6028,10 +6028,8 @@ th {
   clear: both; }
 
 .content {
-  min-height: 650px; }
-  @media (max-width: 480px) {
-    .content {
-      min-height: 0; } }
+  min-height: 100%;
+  position: relative; }
 
 a:hover, a:active {
   color: unset;
@@ -6061,17 +6059,15 @@ a:focus {
     height: 40px;
     background: url("../img/sprite.png") -364px 0;
     float: left; }
+    @media (max-width: 480px) {
+      .header__logo {
+        float: none;
+        margin: 20px auto; } }
   .header-navigation__list {
     list-style: none;
     text-align: center; }
   .header-navigation__item {
-    display: inline-block;
-    border-right: 3px solid #406134; }
-    .header-navigation__item:first-child {
-      border-left: 3px solid #406134; }
-    @media (max-width: 452px) {
-      .header-navigation__item:last-child {
-        border-left: 3px solid #406134; } }
+    display: inline-block; }
   .header-navigation__link {
     display: block;
     color: #fff;
@@ -6147,7 +6143,7 @@ a:focus {
     width: 400px;
     background: rgba(106, 178, 84, 0.7);
     position: absolute;
-    top: 20%;
+    top: 5%;
     right: 10%;
     font: 20px "Bloggersans", Arial;
     padding: 20px;
@@ -6244,10 +6240,33 @@ a:focus {
         text-decoration: underline;
         color: #6AB254; }
 
+.product {
+  margin: 50px auto;
+  max-width: 980px;
+  padding: 100px 0;
+  min-height: 600px; }
+  .product__img {
+    width: 100%; }
+  .product-description {
+    font-family: "Bloggersans";
+    color: #505050; }
+    .product-description__header {
+      margin-bottom: 20px;
+      font-size: 25px;
+      text-transform: uppercase; }
+    .product-description__price {
+      margin-bottom: 20px;
+      display: block;
+      color: #a84d31;
+      font-size: 25px; }
+    .product-description__content {
+      font-size: 16px; }
+
 .comment-box {
   margin: 50px auto;
   max-width: 980px;
-  padding-top: 100px; }
+  padding-top: 100px;
+  min-height: 650px; }
   .comment-box__header {
     font: 30px "Bloggersans", Arial;
     color: #505050; }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app_client/common/directives/footerRu/footerRu.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_client/common/directives/headerRu/headerRu.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_client/products/almond.view.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_client/products/hazelnut.view.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_client/products/honey.view.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_client/products/walnut.view.html" charset="UTF-8" />
+  </component>
+</project>
