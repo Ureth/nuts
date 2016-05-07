@@ -6048,10 +6048,14 @@ a:focus {
   top: 0;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
   margin: 0px; }
+  @media (max-width: 480px) {
+    .header {
+      position: static; } }
   .header__content {
     max-width: 980px;
     min-height: 30px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 10px; }
   .header__logo {
     display: block;
     width: 192px;
@@ -6062,7 +6066,7 @@ a:focus {
     @media (max-width: 480px) {
       .header__logo {
         float: none;
-        margin: 20px auto; } }
+        margin: 0 auto 20px; } }
   .header-navigation__list {
     list-style: none;
     text-align: center; }
@@ -6134,7 +6138,7 @@ a:focus {
     border-left: 3px solid #406134;
     padding-left: 20px;
     width: 200px;
-    margin: 0 auto; }
+    margin: 0 auto 15px; }
   .footer-nav__item {
     height: 40px; }
   .footer-nav__link {
@@ -6155,7 +6159,7 @@ a:focus {
 .delivery {
   min-height: 650px;
   max-width: 980px;
-  padding-top: 100px;
+  padding: 100px 20px 0;
   margin: 0 auto;
   font-family: "Bloggersans";
   color: #505050; }
@@ -6191,7 +6195,8 @@ a:focus {
     @media (max-width: 768px) {
       .about__info {
         position: static;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        background: #6ab254; } }
   .about__title {
     font: 30px "Bloggersans", Arial;
     text-align: center;
@@ -6309,6 +6314,7 @@ a:focus {
   min-height: 650px; }
   .comment-box__header {
     font: 30px "Bloggersans", Arial;
-    color: #505050; }
+    color: #505050;
+    padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
