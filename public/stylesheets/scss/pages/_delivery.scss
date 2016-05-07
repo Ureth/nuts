@@ -1,0 +1,27 @@
+.delivery {
+  min-height: 650px;
+  max-width: 980px;
+  padding-top: 100px;
+  margin: 0 auto;
+  font-family: $main-font;
+  color: $font-color;
+  &__header {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__content {
+    font-size: 18px;
+    & a {
+      color: $main-color;
+      &:hover {
+        color: $main-color;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__list {
+    margin-left: 40px;
+  }
+}

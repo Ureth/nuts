@@ -6067,19 +6067,37 @@ a:focus {
     list-style: none;
     text-align: center; }
   .header-navigation__item {
-    display: inline-block; }
+    display: inline-block;
+    position: relative; }
+  .header-navigation__dropdown {
+    display: none;
+    width: 100px;
+    background: #6AB254;
+    position: absolute;
+    list-style: none;
+    margin: 7px 0 0 -10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); }
+    .header-navigation__dropdown-link {
+      color: #fff;
+      display: block;
+      height: 50px; }
+      .header-navigation__dropdown-link:hover {
+        text-decoration: underline; }
   .header-navigation__link {
     display: block;
     color: #fff;
     text-shadow: 0 0 2px #000;
-    font: 20px/43px "Bloggersans",Arial;
+    font: 20px/43px "Bloggersans", Arial;
     height: 50px;
     padding: 0 10px;
+    cursor: pointer;
     text-align: center; }
     .header-navigation__link:hover {
       text-decoration: none;
       background: #406134;
       color: #fff; }
+    .header-navigation__link:last-child:hover .header-navigation__dropdown {
+      display: block; }
 
 .footer {
   margin-top: 50px; }
@@ -6133,6 +6151,28 @@ a:focus {
     color: #959595;
     font: 14px/49px "Bloggersans", Arial;
     background: #eee; }
+
+.delivery {
+  min-height: 650px;
+  max-width: 980px;
+  padding-top: 100px;
+  margin: 0 auto;
+  font-family: "Bloggersans";
+  color: #505050; }
+  .delivery__header {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px; }
+  .delivery__content {
+    font-size: 18px; }
+    .delivery__content a {
+      color: #6AB254; }
+      .delivery__content a:hover {
+        color: #6AB254;
+        text-decoration: underline; }
+  .delivery__list {
+    margin-left: 40px; }
 
 .about {
   height: 100%;
@@ -6243,7 +6283,7 @@ a:focus {
 .product {
   margin: 50px auto;
   max-width: 980px;
-  padding: 100px 0;
+  padding-top: 100px;
   min-height: 600px; }
   .product__img {
     width: 100%; }

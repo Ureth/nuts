@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app_client/common/directives/footerRu/footerRu.template.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app_client/common/directives/headerRu/headerRu.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_client/delivery/delivery.view.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app_client/products/almond.view.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app_client/products/hazelnut.view.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app_client/products/honey.view.html" charset="UTF-8" />
