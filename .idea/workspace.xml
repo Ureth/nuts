@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c03c5d-efe5-43e1-9855-7bb17ffad128" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/.sass-cache/0bf1ca744a79e183bef5fb63f8501463f83c4373/_delivery.scssc" afterPath="$PROJECT_DIR$/public/stylesheets/.sass-cache/0bf1ca744a79e183bef5fb63f8501463f83c4373/_delivery.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/.sass-cache/aed51f6fa1bdd43b2550b0c660ee6944a781c0cd/_footer.scssc" afterPath="$PROJECT_DIR$/public/stylesheets/.sass-cache/aed51f6fa1bdd43b2550b0c660ee6944a781c0cd/_footer.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/.sass-cache/aed51f6fa1bdd43b2550b0c660ee6944a781c0cd/_header.scssc" afterPath="$PROJECT_DIR$/public/stylesheets/.sass-cache/aed51f6fa1bdd43b2550b0c660ee6944a781c0cd/_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/.sass-cache/0bf1ca744a79e183bef5fb63f8501463f83c4373/_reviews.scssc" afterPath="$PROJECT_DIR$/public/stylesheets/.sass-cache/0bf1ca744a79e183bef5fb63f8501463f83c4373/_reviews.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/pages/_delivery.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/pages/_delivery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/layout/_footer.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/layout/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scss/pages/_reviews.scss" afterPath="$PROJECT_DIR$/public/stylesheets/scss/pages/_reviews.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/home/home.view.html" afterPath="$PROJECT_DIR$/app_client/home/home.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nuts2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +46,8 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36363637">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.29545453">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -1027,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/scss/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.29545453">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>

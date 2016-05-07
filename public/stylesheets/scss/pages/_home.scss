@@ -14,6 +14,7 @@
     padding: 20px;
     color: #fff;
     @media (max-width: 768px) {
+      width: 100%;
       position: static;
       margin: 0 auto;
       background: rgba(106, 178, 84, 1);

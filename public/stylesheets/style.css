@@ -6194,6 +6194,7 @@ a:focus {
     color: #fff; }
     @media (max-width: 768px) {
       .about__info {
+        width: 100%;
         position: static;
         margin: 0 auto;
         background: #6ab254; } }
