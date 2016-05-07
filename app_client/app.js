@@ -29,6 +29,29 @@ function config ($routeProvider, $locationProvider) {
     .when('/honey', {
       templateUrl: 'products/honey.view.html'
     })
+      .when('/en', {
+        templateUrl: 'homeEn/homeEn.view.html'
+      })
+      .when('/en/delivery', {
+        templateUrl: 'deliveryEn/deliveryEn.view.html'
+      })
+      .when('/en/reviews', {
+        templateUrl: 'reviewsEn/reviewsEn.view.html'
+      })
+      .when('/en/walnut', {
+        templateUrl: 'productsEn/walnutEn.view.html'
+      })
+      .when('/en/hazelnut', {
+        templateUrl: 'productsEn/hazelnutEn.view.html'
+      })
+      .when('/en/almond', {
+        templateUrl: 'productsEn/almondEn.view.html'
+      })
+      .when('/en/honey', {
+        templateUrl: 'productsEn/honeyEn.view.html'
+      })
+
+
     .otherwise({redirectTo: '/'});
 
   $locationProvider.html5Mode(true);

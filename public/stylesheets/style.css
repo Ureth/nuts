@@ -6047,7 +6047,7 @@ a:focus {
   z-index: 2;
   top: 0;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
-  margin: 0px; }
+  margin: 0; }
   @media (max-width: 480px) {
     .header {
       position: static;
@@ -6106,6 +6106,25 @@ a:focus {
       color: #fff; }
     .header-navigation__link:last-child:hover .header-navigation__dropdown {
       display: block; }
+  .header-lang {
+    float: right;
+    list-style: none;
+    margin-top: 13px; }
+    .header-lang__item {
+      display: inline-block; }
+    .header-lang__link {
+      border: 1px solid #406134;
+      font: 12px/22px "Bloggersans", Arial;
+      display: block;
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase; }
+      .header-lang__link:hover {
+        color: #fff;
+        background: #406134; }
 
 .footer {
   margin-top: 50px; }

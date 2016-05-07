@@ -5,7 +5,7 @@
   z-index: 2;
   top: 0;
   box-shadow: 0 3px 3px rgba(0,0,0,.3);
-  margin: 0px;
+  margin: 0;
   @media (max-width: 480px) {
     position: static;
     padding-top: 10px;
@@ -74,6 +74,29 @@
       }
       &:last-child:hover .header-navigation__dropdown {
         display: block;
+      }
+    }
+  }
+  &-lang {
+    float: right;
+    list-style: none;
+    margin-top: 13px;
+    &__item {
+      display: inline-block;
+    }
+    &__link {
+      border: 1px solid #406134;
+      font: 12px / 22px $main-font, Arial;
+      display: block;
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      &:hover {
+        color: #fff;
+        background: #406134;
       }
     }
   }

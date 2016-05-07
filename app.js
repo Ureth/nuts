@@ -23,6 +23,8 @@ var appClientFiles = [
   'app_client/common/directives/fbComments/fbCommentsDirective.directive.js',
   'app_client/common/directives/footerRu/footerRu.directive.js',
   'app_client/common/directives/headerRu/headerRu.directive.js',
+  'app_client/common/directives/footerEn/footerEn.directive.js',
+  'app_client/common/directives/headerEn/headerEn.directive.js',
   'app_client/common/directives/fbComments/dynFbCommentBox.directive.js'
 ];
 
