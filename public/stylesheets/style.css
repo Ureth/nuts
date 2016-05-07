@@ -6051,7 +6051,8 @@ a:focus {
   @media (max-width: 768px) {
     .header {
       position: static;
-      padding-top: 10px; } }
+      padding-top: 10px;
+      background: #6ab254; } }
   .header__content {
     max-width: 980px;
     min-height: 30px;
@@ -6211,11 +6212,14 @@ a:focus {
   margin-bottom: 50px; }
   .about__img {
     width: 100%; }
+    @media (max-width: 768px) {
+      .about__img {
+        display: none; } }
   .about__info {
     width: 400px;
     background: rgba(106, 178, 84, 0.7);
     position: absolute;
-    top: 5%;
+    top: 140px;
     right: 10%;
     font: 20px "Bloggersans", Arial;
     padding: 20px;
