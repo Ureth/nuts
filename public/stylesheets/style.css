@@ -6339,6 +6339,10 @@ a:focus {
       font-size: 25px; }
     .product-description__content {
       font-size: 16px; }
+    .product-description__content-important {
+      font: 700 18px / normal "Bloggersans";
+      color: #44726f;
+    }
 
 .comment-box {
   margin: 50px auto;
@@ -6350,4 +6354,7 @@ a:focus {
     color: #505050;
     padding: 20px; }
 
+.reviews__description {
+  font: 400 18px / normal "Bloggersans";
+}
 /*# sourceMappingURL=style.css.map */

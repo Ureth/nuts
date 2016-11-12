@@ -29,6 +29,15 @@ function config ($routeProvider, $locationProvider) {
     .when('/honey', {
       templateUrl: 'products/honey.view.html'
     })
+    .when('/cashew', {
+      templateUrl: 'products/cashew.view.html'
+    })
+    .when('/pistachios', {
+      templateUrl: 'products/pistachios.view.html'
+    })
+    .when('/ukrainian-goods', {
+      templateUrl: 'products/ukrainian-goods.view.html'
+    })
       .when('/en', {
         templateUrl: 'homeEn/homeEn.view.html'
       })
