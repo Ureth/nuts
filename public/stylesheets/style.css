@@ -6172,7 +6172,7 @@ a:focus {
       background: url("../img/sprite.png") -312px 0;
       height: 27px; }
     .footer-contacts__item-skype-icon {
-      background: url("../img/sprite.png") -312px -61px; }
+      background: url("../img/sprite.png") -311px -62px; }
   .footer-nav__list {
     list-style: none;
     border-left: 3px solid #406134;
@@ -6383,5 +6383,14 @@ a:focus {
 
 .reviews__description {
   font: 400 18px / normal "Comic";
+}
+
+.facebook-footer-link {
+  color: #6ab254;
+}
+
+.facebook-footer-link:hover {
+  color: #6ab254;
+  border-bottom: 1px solid #6ab254;
 }
 /*# sourceMappingURL=style.css.map */
