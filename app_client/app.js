@@ -59,6 +59,15 @@ function config ($routeProvider, $locationProvider) {
       .when('/en/honey', {
         templateUrl: 'productsEn/honeyEn.view.html'
       })
+      .when('/en/cashew', {
+        templateUrl: 'productsEn/cashewEn.view.html'
+      })
+      .when('/en/pistachios', {
+        templateUrl: 'productsEn/pistachiosEn.view.html'
+      })
+      .when('/en/ukrainian-goods', {
+        templateUrl: 'productsEn/ukrainian-goodsEn.view.html'
+      })
 
 
     .otherwise({redirectTo: '/'});

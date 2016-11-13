@@ -5,13 +5,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 article,
 aside,
@@ -5797,8 +5799,8 @@ button.close {
   .hidden-print {
     display: none !important; } }
 @font-face {
-  font-family: "Bloggersans";
-  src: url("../fonts/Bloggersans.woff2") format("woff2"), url("../fonts/Bloggersans.woff") format("woff"), url("..fonts/Bloggersans.ttf") format("truetype");
+  font-family: "Comic";
+  src: url("../fonts/Comic.woff2") format("woff2"), url("../fonts/Comic.woff") format("woff"), url("..fonts/Comic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
@@ -5821,6 +5823,14 @@ button.close {
   src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"), url("../onts/opensans.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+  font-family: Comic;
+  src: url("../fonts/comic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
   font-family: sans-serif;
@@ -6080,7 +6090,6 @@ a:focus {
     position: relative; }
   .header-navigation__dropdown {
     display: none;
-    width: 100px;
     background: #6AB254;
     position: absolute;
     list-style: none;
@@ -6089,14 +6098,16 @@ a:focus {
     .header-navigation__dropdown-link {
       color: #fff;
       display: block;
-      height: 50px; }
+      height: auto;
+      padding: 0 10px;
+    }
       .header-navigation__dropdown-link:hover {
         text-decoration: underline; }
   .header-navigation__link {
     display: block;
     color: #fff;
     text-shadow: 0 0 2px #000;
-    font: 20px/43px "Bloggersans", Arial;
+    font: 20px/43px "Comic", Arial;
     height: 50px;
     padding: 0 10px;
     cursor: pointer;
@@ -6120,7 +6131,7 @@ a:focus {
       display: inline-block; }
     .header-lang__link {
       border: 1px solid #406134;
-      font: 12px/24px "Bloggersans", Arial;
+      font: 12px/24px "Comic", Arial;
       display: block;
       width: 25px;
       height: 25px;
@@ -6141,7 +6152,7 @@ a:focus {
     .footer-contacts {
       width: 100%; } }
   .footer-contacts__header {
-    font: 25px "Bloggersans", Arial;
+    font: 25px "Comic", Arial;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px; }
@@ -6172,7 +6183,7 @@ a:focus {
     height: 40px; }
   .footer-nav__link {
     color: #6AB254;
-    font: 18px/40px "Bloggersans", Arial; }
+    font: 18px/40px "Comic", Arial; }
     .footer-nav__link:hover {
       color: #6AB254;
       text-decoration: underline; }
@@ -6182,7 +6193,7 @@ a:focus {
     text-align: center;
     height: 50px;
     color: #959595;
-    font: 14px/49px "Bloggersans", Arial;
+    font: 14px/49px "Comic", Arial;
     background: #eee; }
 
 .delivery {
@@ -6190,7 +6201,7 @@ a:focus {
   max-width: 980px;
   padding: 100px 20px 0;
   margin: 0 auto;
-  font-family: "Bloggersans";
+  font-family: "Comic";
   color: #505050; }
   .delivery__header {
     font-size: 25px;
@@ -6221,7 +6232,7 @@ a:focus {
     position: absolute;
     top: 140px;
     right: 10%;
-    font: 20px "Bloggersans", Arial;
+    font: 20px "Comic", Arial;
     padding: 20px;
     color: #fff; }
     @media (max-width: 768px) {
@@ -6231,14 +6242,14 @@ a:focus {
         margin: 0 auto;
         background: #6ab254; } }
   .about__title {
-    font: 30px "Bloggersans", Arial;
+    font: 30px "Comic", Arial;
     text-align: center;
     margin-bottom: 20px; }
 
 .production {
   height: 100%; }
   .production__title {
-    font: 30px "Bloggersans", Arial;
+    font: 30px "Comic", Arial;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 50px; }
@@ -6270,14 +6281,14 @@ a:focus {
     .production-content__delivery-icon {
       background: url("../img/sprite.png") -200px 0; }
     .production-content__title {
-      font: 25px "Bloggersans", Arial; }
+      font: 25px "Comic", Arial; }
     .production-content__description {
-      font: 18px "Bloggersans", Arial; }
+      font: 18px "Comic", Arial; }
 
 .offer {
   height: 100%; }
   .offer__title {
-    font: 30px "Bloggersans", Arial;
+    font: 30px "Comic", Arial;
     text-align: center;
     margin-bottom: 50px;
     text-transform: uppercase; }
@@ -6295,23 +6306,23 @@ a:focus {
     .offer__product-img {
       width: 100%; }
     .offer__product-title {
-      font: 25px "Bloggersans", Arial;
+      font: 25px "Comic", Arial;
       text-align: center;
       text-transform: uppercase;
       margin: 70px 0 20px; }
     .offer__product-price {
-      font: 25px "Bloggersans", Arial;
+      font: 25px "Comic", Arial;
       color: #a84d31;
       margin-bottom: 20px;
       display: block;
       text-align: left; }
     .offer__product-description {
-      font: 18px "Bloggersans", Arial;
+      font: 18px "Comic", Arial;
       color: #505050;
       margin-bottom: 20px;
       text-align: left; }
     .offer__product-details {
-      font: 18px "Bloggersans", Arial;
+      font: 18px "Comic", Arial;
       color: #6AB254;
       text-align: center; }
       .offer__product-details:hover {
@@ -6324,13 +6335,16 @@ a:focus {
   padding-top: 100px;
   min-height: 600px; }
   .product__img {
-    width: 100%; }
+    margin: 0 auto;
+    display: block;}
   .product-description {
-    font-family: "Bloggersans";
+    font-family: "Comic";
     color: #505050; }
     .product-description__header {
       margin-bottom: 20px;
       font-size: 25px;
+      font-family: Comic;
+      color: #505050;
       text-transform: uppercase; }
     .product-description__price {
       margin-bottom: 20px;
@@ -6340,9 +6354,22 @@ a:focus {
     .product-description__content {
       font-size: 16px; }
     .product-description__content-important {
-      font: 700 18px / normal "Bloggersans";
+      font: 700 18px / normal "Comic";
       color: #44726f;
     }
+
+.center {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.width {
+  width: 100%;
+}
+
+.border {
+  border-bottom: 1px solid #a84d31;
+}
 
 .comment-box {
   margin: 50px auto;
@@ -6350,11 +6377,11 @@ a:focus {
   padding-top: 100px;
   min-height: 650px; }
   .comment-box__header {
-    font: 30px "Bloggersans", Arial;
+    font: 30px "Comic", Arial;
     color: #505050;
     padding: 20px; }
 
 .reviews__description {
-  font: 400 18px / normal "Bloggersans";
+  font: 400 18px / normal "Comic";
 }
 /*# sourceMappingURL=style.css.map */
